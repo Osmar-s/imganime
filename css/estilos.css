@@ -111,3 +111,9 @@ header{
     top: 40vh;
     margin-left: 10%;
 }
+@media screen and (max-width:700px)
+{
+    .btnOtra{
+        font-size: 0.8em;
+    }
+}
