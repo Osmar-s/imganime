@@ -6,6 +6,7 @@ $select.addEventListener("change",()=>{
     getImage($select.value);
 });
 
+$select.value = "escoger";
 
 const getImage = async (category) => {
     try
