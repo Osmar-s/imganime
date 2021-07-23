@@ -35,7 +35,7 @@ header{
 }
 .contenedor{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,11 +44,12 @@ header{
     width: 90%;
     height: 85%;
     padding: 1em 0;
-    margin-top: 1.1em;
+    margin-top: 5em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background: red;
 }
 .contener{
     width: 100%;
