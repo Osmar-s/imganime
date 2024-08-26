@@ -18,7 +18,7 @@ const getImage = async (category) => {
         $selecciona.classList.remove("seleccion");
         $cargando.classList.remove("esconder");
         if($contImg.firstElementChild.id === "cont") $contImg.removeChild($contImg.firstElementChild);
-        const resultados = await fetch(`https://api.waifu.pics/sfw/${category}`);
+        const resultados = await fetch(`https://api.waifu.pics/nsfw/${category}`);
         const image = await resultados.json();
         const img = document.createElement("img"), div = document.createElement("div");
         div.setAttribute("id","cont");
